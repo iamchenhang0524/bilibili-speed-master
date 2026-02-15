@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "B站倍速助手",
+  "version": "1.0",
+  "description": "按数字键 2 实现 2 倍速",
+  "content_scripts": [
+    {
+      "matches": ["*://*.bilibili.com/video/*", "*://*.bilibili.com/bangumi/*"],
+      "js": ["content.js"],
+      "css": ["styles.css"],
+      "run_at": "document_idle"
+    }
+  ]
+}

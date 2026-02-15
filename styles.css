@@ -1,0 +1,21 @@
+/* 提示框的基础样式 */
+#bili-speed-toast {
+  position: fixed;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #ffffff;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-size: 16px;
+  z-index: 2147483647; /* 确保在最上层 */
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+/* 显示时的样式 */
+#bili-speed-toast.show {
+  opacity: 1;
+}
