@@ -1,0 +1,17 @@
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Node
+node_modules/
+
+# Python
+__pycache__/
+*.pyc
+
+# Chrome extension packed files
+*.crx
+*.pem
